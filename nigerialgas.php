@@ -7,7 +7,7 @@
 function nigerialgas_listcounties() {
   $countryIso = 'NG';
   $counties = array(
-    'Beograd' => array(
+    'Abia State' => array(
       'Grad Beograd',
       'Gradska opština Barajevo',
       'Gradska opština Voždovac',
@@ -27,19 +27,19 @@ function nigerialgas_listcounties() {
       'Gradska opština Surčin',
       'Gradska opština Čukarica',
     ),
-    'Severnobački upravni okrug' => array(
+    'Adamawa State' => array(
       'Bačka Topola',
       'Mali Iđoš',
       'Grad Subotica',
     ),
-    'Srednjebanatski upravni okrug' => array(
+    'Akwa Ibom State' => array(
       'Žitište',
       'Grad Zrenjanin',
       'Nova Crnja',
       'Novi Bečej',
       'Sečanj',
     ),
-    'Severnobanatski upravni okrug' => array(
+    'Anambra State' => array(
       'Ada',
       'Kanjiža',
       'Grad Kikinda',
@@ -47,7 +47,7 @@ function nigerialgas_listcounties() {
       'Senta',
       'Čoka',
     ),
-    'Južnobanatski upravni okrug' => array(
+    'Bauchi State' => array(
       'Alibunar',
       'Bela Crkva',
       'Grad Vršac',
@@ -57,13 +57,13 @@ function nigerialgas_listcounties() {
       'Grad Pančevo',
       'Plandište',
     ),
-    'Zapadnobački upravni okrug' => array(
+    'Bayelsa State' => array(
       'Apatin',
       'Kula',
       'Odžaci',
       'Grad Sombor',
     ),
-    'Južnobački upravni okrug' => array(
+    'Benue State' => array(
       'Bač',
       'Bačka Palanka',
       'Bački Petrovac',
@@ -77,7 +77,7 @@ function nigerialgas_listcounties() {
       'Temerin',
       'Titel',
     ),
-    'Sremski upravni okrug' => array(
+    'Borno State' => array(
       'Inđija',
       'Irig',
       'Pećinci',
@@ -86,7 +86,7 @@ function nigerialgas_listcounties() {
       'Stara Pazova',
       'Šid',
     ),
-    'Mačvanski upravni okrug' => array(
+    'Cross River State' => array(
       'Bogatić',
       'Vladimirci',
       'Koceljeva',
@@ -96,7 +96,7 @@ function nigerialgas_listcounties() {
       'Mali Zvornik',
       'Grad Šabac',
     ),
-    'Kolubarski upravni okrug' => array(
+    'Delta State' => array(
       'Grad Valjevo',
       'Lajkovac',
       'Ljig',
@@ -104,7 +104,7 @@ function nigerialgas_listcounties() {
       'Osečina',
       'Ub',
     ),
-    'Zlatiborski upravni okrug' => array(
+    'Ebonyi State' => array(
       'Arilje',
       'Bajina Bašta',
       'Kosjerić',
@@ -116,12 +116,12 @@ function nigerialgas_listcounties() {
       'Grad Užice',
       'Čajetina',
     ),
-    'Podunavski upravni okrug' => array(
+    'Edo State' => array(
       'Velika Plana',
       'Grad Smederevo',
       'Smederevska Palanka',
     ),
-    'Šumadijski upravni okrug' => array(
+    'Ekiti State' => array(
       'Aranđelovac',
       'Batočina',
       'Knić',
@@ -130,7 +130,7 @@ function nigerialgas_listcounties() {
       'Rača',
       'Topola',
     ),
-    'Pomoravski upravni okrug' => array(
+    'Enugu State' => array(
       'Despotovac',
       'Grad Jagodina',
       'Paraćin',
@@ -138,20 +138,20 @@ function nigerialgas_listcounties() {
       'Svilajnac',
       'Ćuprija',
     ),
-    'Moravički upravni okrug' => array(
+    'FCT' => array(
       'Gornji Milanovac',
       'Ivanjica',
       'Lučani',
       'Grad Čačak',
     ),
-    'Raški upravni okrug' => array(
+    'Gombe State' => array(
       'Vrnjačka Banja',
       'Grad Kraljevo',
       'Grad Novi Pazar',
       'Raška',
       'Tutin',
     ),
-    'Rasinski upravni okrug' => array(
+    'Imo State' => array(
       'Aleksandrovac',
       'Brus',
       'Varvarin',
@@ -159,7 +159,7 @@ function nigerialgas_listcounties() {
       'Trstenik',
       'Ćićevac',
     ),
-    'Braničevski upravni okrug' => array(
+    'Jigawa State' => array(
       'Gradska opština Požarevac',
       'Veliko Gradište',
       'Golubac',
@@ -169,19 +169,19 @@ function nigerialgas_listcounties() {
       'Malo Crniće',
       'Petrovac na Mlavi',
     ),
-    'Borski upravni okrug' => array(
+    'Kaduna State' => array(
       'Bor',
       'Kladovo',
       'Majdanpek',
       'Negotin',
     ),
-    'Zaječarski upravni okrug' => array(
+    'Kano State' => array(
       'Boljevac',
       'Grad Zaječar',
       'Knjaževac',
       'Sokobanja',
     ),
-    'Nišavski upravni okrug' => array(
+    'Katsina State' => array(
       'Grad Niš',
       'Gradska opština Medijana',
       'Gradska opština Palilula',
@@ -195,19 +195,19 @@ function nigerialgas_listcounties() {
       'Ražanj',
       'Svrljig',
     ),
-    'Toplički upravni okrug' => array(
+    'Kebbi State' => array(
       'Blace',
       'Žitorađa',
       'Kuršumlija',
       'Prokuplje',
     ),
-    'Pirotski upravni okrug' => array(
+    'Kogi State' => array(
       'Babušnica',
       'Bela Palanka',
       'Dimitrovgrad',
       'Grad Pirot',
     ),
-    'Jablanički upravni okrug' => array(
+    'Kwara State' => array(
       'Bojnik',
       'Vlasotince',
       'Lebane',
@@ -215,7 +215,115 @@ function nigerialgas_listcounties() {
       'Medveđa',
       'Crna Trava',
     ),
-    'Pčinjski upravni okrug' => array(
+    'Lagos State' => array(
+      'Grad Vranje',
+      'Bosilegrad',
+      'Bujanovac',
+      'Vladičin Han',
+      'Preševo',
+      'Surdulica',
+      'Trgovište',
+    ),
+    'Nasarawa State' => array(
+      'Grad Vranje',
+      'Bosilegrad',
+      'Bujanovac',
+      'Vladičin Han',
+      'Preševo',
+      'Surdulica',
+      'Trgovište',
+    ),
+    'Niger State' => array(
+      'Grad Vranje',
+      'Bosilegrad',
+      'Bujanovac',
+      'Vladičin Han',
+      'Preševo',
+      'Surdulica',
+      'Trgovište',
+    ),
+    'Ogun State' => array(
+      'Grad Vranje',
+      'Bosilegrad',
+      'Bujanovac',
+      'Vladičin Han',
+      'Preševo',
+      'Surdulica',
+      'Trgovište',
+    ),
+    'Ondo State' => array(
+      'Grad Vranje',
+      'Bosilegrad',
+      'Bujanovac',
+      'Vladičin Han',
+      'Preševo',
+      'Surdulica',
+      'Trgovište',
+    ),
+    'Osun State' => array(
+      'Grad Vranje',
+      'Bosilegrad',
+      'Bujanovac',
+      'Vladičin Han',
+      'Preševo',
+      'Surdulica',
+      'Trgovište',
+    ),
+    'Oyo State' => array(
+      'Grad Vranje',
+      'Bosilegrad',
+      'Bujanovac',
+      'Vladičin Han',
+      'Preševo',
+      'Surdulica',
+      'Trgovište',
+    ),
+    'Plateau State' => array(
+      'Grad Vranje',
+      'Bosilegrad',
+      'Bujanovac',
+      'Vladičin Han',
+      'Preševo',
+      'Surdulica',
+      'Trgovište',
+    ),
+    'Rivers State' => array(
+      'Grad Vranje',
+      'Bosilegrad',
+      'Bujanovac',
+      'Vladičin Han',
+      'Preševo',
+      'Surdulica',
+      'Trgovište',
+    ),
+    'Sokoto State' => array(
+      'Grad Vranje',
+      'Bosilegrad',
+      'Bujanovac',
+      'Vladičin Han',
+      'Preševo',
+      'Surdulica',
+      'Trgovište',
+    ),
+    'Taraba State' => array(
+      'Grad Vranje',
+      'Bosilegrad',
+      'Bujanovac',
+      'Vladičin Han',
+      'Preševo',
+      'Surdulica',
+      'Trgovište',
+    ),
+    'Yobe State' => array(
+      'Grad Vranje',
+      'Bosilegrad',
+      'Bujanovac',
+      'Vladičin Han',
+      'Preševo',
+      'Surdulica',
+      'Trgovište',
+    ),
+    'Zamfara State' => array(
       'Grad Vranje',
       'Bosilegrad',
       'Bujanovac',
