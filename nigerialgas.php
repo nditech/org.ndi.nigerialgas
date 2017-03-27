@@ -4,8 +4,8 @@
  * Return a list of all the counties
  */
 
-function serbiamunicipalities_listcounties() {
-  $countryIso = 'RS';
+function nigerialgas_listcounties() {
+  $countryIso = 'NG';
   $counties = array(
     'Beograd' => array(
       'Grad Beograd',
@@ -233,9 +233,9 @@ function serbiamunicipalities_listcounties() {
  * Check and load counties
  */
 
-function serbiamunicipalities_loadcounties() {
+function nigerialgas_loadcounties() {
 
-  $allCounties = serbiamunicipalities_listcounties();
+  $allCounties = nigerialgas_listcounties();
 
   foreach ($allCounties as $countryIso => $counties) {
     static $dao = NULL;
@@ -257,7 +257,7 @@ function serbiamunicipalities_loadcounties() {
     catch (CiviCRM_API3_Exception $e) {
       $error = $e->getMessage();
       CRM_Core_Error::debug_log_message(ts('API Error: %1', array(
-        'domain' => 'org.ndi.serbiamunicipalities',
+        'domain' => 'org.ndi.nigerialgas',
         1 => $error,
       )));
       return FALSE;
@@ -310,8 +310,8 @@ function serbiamunicipalities_loadcounties() {
  *
  * @link http://wiki.civicrm.org/confluence/display/CRMDOC/hook_civicrm_install
  */
-function serbiamunicipalities_civicrm_install() {
-  serbiamunicipalities_loadcounties();
+function nigerialgas_civicrm_install() {
+  nigerialgas_loadcounties();
 }
 
 /**
@@ -319,8 +319,8 @@ function serbiamunicipalities_civicrm_install() {
  *
  * @link http://wiki.civicrm.org/confluence/display/CRMDOC/hook_civicrm_enable
  */
-function serbiamunicipalities_civicrm_enable() {
-  serbiamunicipalities_loadcounties();
+function nigerialgas_civicrm_enable() {
+  nigerialgas_loadcounties();
 }
 
 /**
@@ -334,6 +334,6 @@ function serbiamunicipalities_civicrm_enable() {
  *
  * @link http://wiki.civicrm.org/confluence/display/CRMDOC/hook_civicrm_upgrade
  */
-function serbiamunicipalities_civicrm_upgrade($op, CRM_Queue_Queue $queue = NULL) {
-  serbiamunicipalities_loadcounties();
+function nigerialgas_civicrm_upgrade($op, CRM_Queue_Queue $queue = NULL) {
+  nigerialgas_loadcounties();
 }
